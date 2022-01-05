@@ -1,5 +1,5 @@
-import Banner from './composants/Banner'
-import Cart from "./composants/Cart";
+import Banner from './Banner'
+import Cart from "./Cart";
 
 
 function App() {

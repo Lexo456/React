@@ -46,7 +46,9 @@ function ShoppingList({cart, updateCart}) {
                                 light={light}
                                 price={price}
                             />
-                            <button className={'test'} onClick={() => addToCart(name, price)}>Ajouter</button>
+                            <button className={'btn btn-sm btn-outline-dark'}
+                                    onClick={() => addToCart(name, price)}>Ajouter
+                            </button>
                         </div>
                     ) : null
                 )}

@@ -1,8 +1,16 @@
 .lmj-categories {
-	text-align: center;
-	padding-top: 30px;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .lmj-categories-select {
-	margin-right: 15px;
+    border: 2px solid forestgreen;
+    padding: 5px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
 }
+

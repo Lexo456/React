@@ -4,6 +4,7 @@ import Cart from './Cart'
 import Footer from './Footer'
 import ShoppingList from './ShoppingList'
 import '../styles/Layout.css'
+import logo from '../assets/logo.png'
 
 function App() {
     const savedCart = localStorage.getItem('cart')
@@ -15,8 +16,8 @@ function App() {
     return (
         <div>
             <Banner>
-
-                <h1 className='lmj-title'>📚 La Librairie temporaire</h1>
+                <img src={logo} className={'lmj-logo'} alt='logo'/>
+                <h1 className='lmj-title'>La maison jungle</h1>
             </Banner>
             <div className='lmj-layout-inner'>
                 <Cart cart={cart} updateCart={updateCart}/>
